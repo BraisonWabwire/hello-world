@@ -5,7 +5,11 @@ import Greet from './components/greet';
 function App() {
   return (
     <div className="App">
-      <Greet/>
+      <Greet name='Braison' heroname='Tajiri'>
+        <h1>This is childrenprops</h1>
+        </Greet>
+      <Greet name='Wabwire' heroname='mkuu'/>
+      <Greet name='Daniel' heroname='ule msee'/>
     </div>
   );
 }
