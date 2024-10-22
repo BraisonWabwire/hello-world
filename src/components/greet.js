@@ -1,6 +1,7 @@
 import React  from 'react'
 
-const Greet=({name,heroname})=> {
+const Greet=props=> {
+    const {name,heroname}=props
     console.log()
 return (
     <div>
