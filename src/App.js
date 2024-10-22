@@ -8,17 +8,17 @@ import Counter from './components/counter';
 function App() {
   return (
     // <div className="App">
-    //   <Greet name='Braison' heroname='Tajiri'>
-    //     <h1>This is childrenprops</h1>
+      <Greet name='Braison' heroname='Tajiri'/>
+    /* //     <h1>This is childrenprops</h1> */
     //     </Greet>
     //   <Greet name='Wabwire' heroname='mkuu'>
     //     <button > Action </button>
     //   </Greet>
-    //   <Greet name='Daniel' heroname='ule msee'/>
+      // <Greet name='Daniel' heroname='ule msee'/>
     //   <Welcome name='James' heroname='Mnoma'></Welcome>
     // </div>
     // <Message></Message>
-    <Counter></Counter>
+    // <Counter></Counter>
 
   );
 }
