@@ -8,6 +8,7 @@ import FunctionClick from './components/functionClick';
 import Click from './components/click';
 import EventBinding from './components/eventBinding';
 import ParentComponent from './components/ParentComponent';
+import NameList from './components/NameList';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <FunctionClick></FunctionClick> */}
       {/* <Click></Click> */}
       {/* <EventBinding></EventBinding> */}
-      <ParentComponent/>
+      {/* <ParentComponent/> */}
+      <NameList></NameList>
     </div>
   );
 }
