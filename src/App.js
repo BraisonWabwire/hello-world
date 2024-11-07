@@ -9,15 +9,25 @@ import Click from './components/click';
 import EventBinding from './components/eventBinding';
 import ParentComponent from './components/ParentComponent';
 import NameList from './components/NameList';
+import StyleSheet from './StyleSheet';
+import Inline from './components/Inline';
+import './appStyles.css'
+import styles from './appStyles.module.css'
 
 function App() {
   return (
     <div className="App">
+      <h1 className='error'>error</h1>
+      <h1 className={styles.success}>success</h1>
       {/* <FunctionClick></FunctionClick> */}
       {/* <Click></Click> */}
       {/* <EventBinding></EventBinding> */}
       {/* <ParentComponent/> */}
-      <NameList></NameList>
+      {/* <NameList></NameList> */}
+      {/* <StyleSheet></StyleSheet> */}
+      {/* <Inline></Inline> */}
+
+      
     </div>
   );
 }
