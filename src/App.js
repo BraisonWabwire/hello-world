@@ -15,6 +15,8 @@ import './appStyles.css'
 import styles from './appStyles.module.css'
 import Form from './components/Form';
 import LifeCycleA from './components/LifeCycleA';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
 
 function App() {
   return (
@@ -29,7 +31,9 @@ function App() {
       {/* <StyleSheet></StyleSheet> */}
       {/* <Inline></Inline> */}
       {/* <Form></Form> */}
-      <LifeCycleA></LifeCycleA>
+      {/* <LifeCycleA></LifeCycleA> */}
+      {/* <FragmentDemo></FragmentDemo> */}
+      <Table></Table>
 
       
     </div>
