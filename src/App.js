@@ -19,6 +19,9 @@ import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
 import ParentComp from './ParentComp';
 import RefsDemo from './components/RefsDemo';
+import FooCusInput from './components/FooCusInput';
+
+
 
 function App() {
   return (
@@ -37,7 +40,8 @@ function App() {
       {/* <FragmentDemo></FragmentDemo> */}
       {/* <Table></Table> */}
       {/* <ParentComp/> */}
-      <RefsDemo/>
+      {/* <RefsDemo/> */}
+      <FooCusInput></FooCusInput>
   
     </div>
   );
